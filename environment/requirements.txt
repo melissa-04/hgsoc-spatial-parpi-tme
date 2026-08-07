@@ -1,0 +1,32 @@
+# Environment for hgsoc-spatial-tme
+# Google Colab. Install with:
+#   pip install -r environment/requirements.txt
+#
+# Versions are pinned so the analysis can be reproduced.
+# Actual versions used in each run are logged in environment/session_logs/
+
+# ── Core single-cell / spatial ──
+scanpy==1.10.3
+anndata==0.10.9
+squidpy==1.6.2
+
+# ── Numerical / data ──
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+scikit-learn==1.5.2
+
+# ── Clustering ──
+leidenalg==0.10.2
+igraph==0.11.6
+
+# ── Plotting ──
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# ── Differential expression (pseudobulk) ──
+pydeseq2==0.4.12
+
+# ── Utilities ──
+openpyxl==3.1.5
+tqdm==4.66.5
