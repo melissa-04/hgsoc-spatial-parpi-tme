@@ -1,0 +1,9 @@
+gsm,geo_name,file_prefix,paper_id,group,olaparib_months,tissue_site,timing,stage,age,gBRCA2,slide_batch
+GSM8768679,Patient1,Pt1-1,R4,resistant,3,Omentum,IDS,IIIC,60,FALSE,A
+GSM8768680,Patient2,Pt1-2,S2,sensitive,27,FallopianTube,Recurrence,IVB,68,FALSE,A
+GSM8768681,Patient3,Pt1-3,S3,sensitive,54,Ovary,IDS,IVA,49,TRUE,A
+GSM8768682,Patient4,Pt1-4,S4,sensitive,38,VaginalStump,Recurrence,IIIB,56,FALSE,A
+GSM8768683,Patient5,Pt2-1,R3,resistant,2,Peritoneum,PDS,IIIC,77,FALSE,B
+GSM8768684,Patient6,Pt2-2,R1,resistant,2,Ovary,PDS,IIIC,38,FALSE,B
+GSM8768685,Patient7,Pt2-3,S1,sensitive,7,Ovary,PDS,IIIC,56,FALSE,B
+GSM8768686,Patient8,Pt2-4,R2,resistant,4,Ovary,IDS,IVB,53,FALSE,B
