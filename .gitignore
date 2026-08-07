@@ -1,0 +1,34 @@
+# ── Data 
+# Not tracked by git. Raw data is public:
+#   GSE288483  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288483
+#   GSE211956  https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE211956
+# Download with notebooks/01_download_data.ipynb — see README.md
+data/
+data/
+*.tar
+*.tar.gz
+*.h5ad
+*.mtx
+*.mtx.gz
+*.loom
+*.rds
+
+# ── Large outputs ──
+results/tables/*.csv
+!results/tables/.gitkeep
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── Secrets ──
+.env
+*token*
+*credential*
